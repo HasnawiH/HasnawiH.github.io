@@ -59,12 +59,14 @@ import {
   SiNetlify,
   SiNextdotjs,
   SiNodedotjs,
+  SiNuxtdotjs,
   SiReact,
   SiRedux,
   SiSocketdotio,
   SiTailwindcss,
   SiTwitter,
   SiTypescript,
+  SiVuedotjs,
 } from "react-icons/si";
 
 export const Icons = {
@@ -121,6 +123,8 @@ export const Icons = {
   socketio: SiSocketdotio,
   tailwindcss: SiTailwindcss,
   typescript: SiTypescript,
+  vuejs:SiVuedotjs,
+  nuxtjs: SiNuxtdotjs,
   gmail: SiGmail,
   twitter: SiTwitter,
   linkedin: SiLinkedin,

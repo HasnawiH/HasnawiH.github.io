@@ -17,7 +17,7 @@ import { pagesConfig } from "@/config/pages";
 import { siteConfig } from "@/config/site";
 import { featuredSkills } from "@/config/skills";
 import { cn } from "@/lib/utils";
-import namanImg from "@/public/naman-img.jpg";
+import namanImg from "@/public/hasnawi.jpeg";
 
 export const metadata: Metadata = {
   title: `${pagesConfig.home.metadata.title} | Modern Next.js Developer Portfolio Template`,
@@ -71,7 +71,7 @@ export default function IndexPage() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(softwareSchema) }}
       />
 
-      <section className="space-y-6 pb-8 pt-6 mb-0 md:pb-12 md:py-20 lg:py-32 h-screen flex items-center">
+      <section className="space-y-6 pb-8 pt-6 mt-4 mb-0 md:pb-12 md:py-20 lg:py-32 h-screen flex items-center">
         <div className="container flex max-w-[64rem] flex-col items-center gap-4 text-center -mt-20">
           <Image
             src={namanImg}
@@ -79,31 +79,30 @@ export default function IndexPage() {
             width={100}
             sizes="100vw"
             className="bg-primary rounded-full mb-0 h-auto md:mb-2 w-[60%] max-w-[16rem] border-8 border-primary"
-            alt="Naman Barkiya - Full Stack Developer Portfolio"
+            alt="Hasnawi Haeba - Frontend Developer Portfolio"
             priority
           />
           <AnimatedText
             as="h1"
             delay={0.2}
-            className="font-heading text-3xl sm:text-5xl md:text-6xl lg:text-7xl"
+            className="font-heading text-3xl sm:text-5xl md:text-6xl lg:text-6xl"
           >
-            Naman Barkiya
+            Hasnawi Haeba
           </AnimatedText>
           <AnimatedText
             as="h3"
             delay={0.4}
             className="font-heading text-base sm:text-xl md:text-xl lg:text-2xl"
           >
-            Full Stack Developer
+            Frontend Engineer
           </AnimatedText>
-          <div className="mt-4 max-w-[42rem] text-center">
+          <div className="mt-2 max-w-[42rem] text-center">
             <p className="leading-normal text-muted-foreground text-sm sm:text-base">
-              Open-source Next.js portfolio template. Fork this on GitHub to
-              create your own developer portfolio.
+              A Frontend Developer mastered Javascript. Enthusiast ReactJs, NextJs, VueJs etc.
             </p>
           </div>
 
-          <div className="flex flex-col mt-10 items-center justify-center sm:flex-row sm:space-x-4 gap-3">
+          <div className="flex flex-col mt-4 items-center justify-center sm:flex-row sm:space-x-4 gap-3">
             <AnimatedText delay={0.6}>
               <Link
                 href={"https://github.com/namanbarkiya"}
@@ -207,7 +206,7 @@ export default function IndexPage() {
                     </p>
                 </div> */}
       </AnimatedSection>
-      <AnimatedSection
+      {/* <AnimatedSection
         direction="left"
         className="container space-y-6 bg-muted py-10 my-14"
         id="contributions"
@@ -237,7 +236,7 @@ export default function IndexPage() {
             </Button>
           </Link>
         </AnimatedText>
-      </AnimatedSection>
+      </AnimatedSection> */}
     </ClientPageWrapper>
   );
 }
